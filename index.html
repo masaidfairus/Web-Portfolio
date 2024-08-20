@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <title>Masaid Fairus - Web Developer</title>
+    <link rel="icon" href="images/fairus_logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar-container">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <img src="images/menu.svg" alt="menu_icon">
+                </div>
+            </nav>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/masaidfairus" target="_blank">
+                    <img src="images/linkedin.svg" alt="linkedin_icon">
+                </a>
+                <a href="https://github.com/masaidfairus" target="_blank">
+                    <img src="images/github-mark-white.svg" alt="github_icon">
+                </a>
+                <a href="https://instagram.com/msaidfairuss" target="_blank">
+                    <img src="images/insta.svg" alt="instagram_icon">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">Masaid Fairus ✓<br>Trimarsongko</h1>
+                <div class="hero-section">
+                    <p class="hero-subtitle">I am a new Web Developer - Still Learning ♣︎</p>
+                    <button class="btn-hero" onclick="copyText()"></button>
+                </div>
+            </div>
+        </div>
+        <br><br><center><h1 class="quotes">↓↓↓ SCROLL DOWN ↓↓↓</h1></center><br><br>
+        <div class="about" id="about">
+            <div class="about-container">
+                <div class="about-section-1">
+                    <a class="about-me-btn" href="#">ABOUT ME</a>
+                    <img src="images/profile-img.png" alt="handsome-guy">
+                </div>
+                <div class="about-section-2">
+                    <h2 class="about-title">Howdy, I'm <span class="text-1">Fairus.</span><br>A Web Developer</h2>
+                    <p class="about-description">
+                        My name is Masaid Fairus, a 14-year-old enthusiastic Web Developer. I have been passionate about technology since I was a child. 
+                        I have worked with various programming languages and frameworks, including HTML, CSS, and I use Figma for designing. I love to discover
+                        new things and share them with others.
+                    </p>
+                    <h3 class="about-skills">I am Familiar With</h3>
+                    <ul>
+                        <li class="my-skills">HTML</li>
+                        <li class="my-skills">CSS</li>
+                        <li class="my-skills">Figma</li>
+                        <li class="my-skills">VS Code</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br><br><center><blockquote class="quotes">"Clean code always looks like it was written by someone who cares."</blockquote></center><br><br>
+        <div class="projects" id="projects">
+            <div class="projects-container">
+                <h2 class="projects-title">PROJECTS</h2>
+                <div class="projects-section-left">
+                    <img src="images/example-img.jpg" alt="test" class="ps-img">
+                    <h3 class="ps-title">Project Lorem</h3>
+                    <p class="ps-paragraph">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia pariatur maiores iusto numquam facere,
+                        ea deleniti facilis consequuntur assumenda vitae consectetur earum est nam sunt quaerat inventore minima explicabo.
+                    </p>
+                    <a href="#" class="ps-button">Learn More</a>
+                </div>
+                <div class="projects-section-right">
+                    <img src="images/example-img.jpg" alt="test" class="ps-img">
+                    <h3 class="ps-title">Project Lorem</h3>
+                    <p class="ps-paragraph">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia pariatur maiores iusto numquam facere,
+                        ea deleniti facilis consequuntur assumenda vitae consectetur earum est nam sunt quaerat inventore minima explicabo.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod iste nisi placeat necessitatibus minus sit vero fugiat 
+                        expedita doloremque nobis aspernatur animi totam quas, porro vel rem, magni accusantium exercitationem.
+                    </p>
+                    <a href="#" class="ps-button">Learn More</a>
+                </div>
+                <div class="projects-section-left">
+                    <img src="images/example-img.jpg" alt="test" class="ps-img">
+                    <h3 class="ps-title">Project Lorem</h3>
+                    <p class="ps-paragraph">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia pariatur maiores iusto numquam facere,
+                        ea deleniti facilis consequuntur assumenda vitae consectetur earum est nam sunt quaerat inventore minima explicabo.
+                    </p>
+                    <a href="#" class="ps-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="contact" id="contact">
+            <div class="contact-container">
+                <h2 class="contact-title">GET IN TOUCH</h2>
+                <div class="contact-social">
+                        <a class="social-effect" href="https://www.linkedin.com/in/masaidfairus" target="_blank">
+                            <img src="images/linkedin.svg" alt="linkedin_icon" data-hover-src="images/linkedin-black.svg">
+                        </a>
+                    <div class="vertical-divider"></div>
+                        <a class="social-effect" href="https://github.com/masaidfairus" target="_blank">
+                            <img src="images/github-mark-white.svg" alt="github_icon" data-hover-src="images/github-black.svg">
+                        </a>
+                    <div class="vertical-divider"></div>
+                    <a class="social-effect" href="https://instagram.com/msaidfairuss" target="_blank">
+                        <img src="images/insta.svg" alt="instagram_icon" data-hover-src="images/insta-black.svg">
+                    </a>
+                </div>
+                <div class="email">
+                    <div class="column-1">
+                        <img src="images/mail.svg" alt="mail" width="15">
+                    </div>
+                    <span class="column-2">masaidfairustrimarsongko@gmail.com</span>
+                    <div class="hover-text">Click to contact</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Masaid Fairus Trimarsongko. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
