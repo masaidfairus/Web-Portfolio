@@ -290,7 +290,7 @@ main {
 }
 
 .quotes {
-    width: 50rem;
+    width: auto;
     text-align: center;
     font-family: 'pixelmix';
     line-height: 120%;
@@ -643,7 +643,7 @@ main {
     }
 
     .quotes {
-        width: 40rem;
+        width: auto;
         font-size: 2rem;
         margin: 5rem 0;
     }
@@ -755,7 +755,7 @@ main {
     }
 
     .quotes {
-        width: 35rem;
+        width: auto;
         font-size: 1.75rem;
         margin: 2rem 0;
     }
@@ -978,7 +978,7 @@ main {
     }
 
     .quotes {
-        width: 25rem;
+        width: auto;
         font-size: 1.25rem;
         margin: 2rem 0;
     }
@@ -1099,7 +1099,7 @@ main {
 
 @media screen and (max-width: 375px) {
     .quotes {
-        width: 20rem;
+        width: auto;
         font-size: 1.25rem;
     }
 
@@ -1159,7 +1159,7 @@ main {
     }
 
     .quotes {
-        width: 18rem;
+        width: auto;
         font-size: 1.15rem;
     }
 
