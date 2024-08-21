@@ -12,6 +12,48 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Clash Display';
+    src: url(./font/clash-display/ClashDisplay-Extralight.otf);
+    font-weight: 200;
+    font-style: lighter;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url(./font/clash-display/ClashDisplay-Light.otf);
+    font-weight: 300;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url(./font/clash-display/ClashDisplay-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url(./font/clash-display/ClashDisplay-Medium.otf);
+    font-weight: 500;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url(./font/clash-display/ClashDisplay-Semibold.otf);
+    font-weight: 600;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url(./font/clash-display/ClashDisplay-Bold.otf);
+    font-weight: 700;
+    font-style: bolder;
+}
+
 html {
     scroll-behavior: smooth;
     font-size: 16px;
@@ -22,7 +64,7 @@ html {
 }
 
 body {
-    font-family: Clash Display;
+    font-family: 'Clash Display';
     background: #1E1E1E;
     font-size: 1rem;
     cursor: crosshair;
