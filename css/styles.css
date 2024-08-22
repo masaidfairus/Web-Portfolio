@@ -161,6 +161,14 @@ main {
     opacity: 50%;
 }
 
+center {
+    padding: 2rem 0;
+}
+
+.hero {
+    margin: 0 0 5rem;
+}
+
 .hero-container {
     display: flex;
     justify-content: center;
