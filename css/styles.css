@@ -56,6 +56,17 @@
     font-style: bolder;
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 html {
     scroll-behavior: smooth;
     font-size: 16px;
@@ -73,6 +84,11 @@ body {
     
     margin: 0;
     padding: 0;
+}
+
+body * {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
 }
 
 /* 
@@ -184,6 +200,8 @@ center {
     font-weight: 600;
     margin: 1.25rem 0;
     color: #E9F554;
+
+    animation-delay: 0.5s;
 }
 
 .hero-subtitle {
@@ -192,6 +210,8 @@ center {
     font-family: Pixelify Sans;
     margin-right: auto;
     color: #E9F554;
+
+    animation-delay: 1s;
 }
 
 .btn-hero {
@@ -203,6 +223,8 @@ center {
     width: 25rem;
 
     transition: all 0.2s ease-out;
+
+    animation-delay: 1s;
 }
 
 .btn-hero::after {
