@@ -86,7 +86,7 @@ body {
     padding: 0;
 }
 
-body * {
+.hero-title, .hero-subtitle, .btn-hero, .navbar-container {
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
 }
@@ -101,6 +101,13 @@ body * {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.hidden-2 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
     transition: all 1s;
 }
 
@@ -390,8 +397,6 @@ center {
     font-size: 2.5rem;
     margin: 6.25rem 0;
     color: #E9F554;
-
-    transition: letter-spacing 0.8s linear, color 0.8s linear; /* Specify properties to transition */
 }
 
 .quotes:hover {
