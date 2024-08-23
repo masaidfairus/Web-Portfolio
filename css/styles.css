@@ -91,6 +91,25 @@ body * {
     animation: fadeInUp 1s ease-out forwards;
 }
 
+@media(prefers-reduced-motion){
+    .hidden {
+        transition: none;
+    }
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
 /* 
 Black Color: #1E1E1E
 White Color: #FFFFFF
@@ -632,7 +651,8 @@ center {
     font-size: 1rem;
     font-weight: 500;
     opacity: 0;
-    transition: opacity 0.3s;
+    animation: none;
+    transition: opacity .5s;
 }
 
 .email:hover .hover-text {
