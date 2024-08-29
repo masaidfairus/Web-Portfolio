@@ -248,7 +248,7 @@ center {
     height: 2.5rem;
     width: 25rem;
 
-    transition: all 0.2s ease-out;
+    transition: all 0.5s ease-out;
 
     animation-delay: 1s;
 }
@@ -259,6 +259,7 @@ center {
 
 .btn-hero:hover::after {
     content: "Click to copy!";
+    scale: 1.05;
     width: 25rem;
     height: 2.5rem;
     font-size: 1rem;
@@ -270,6 +271,7 @@ center {
 }
 
 .btn-hero.active-state {
+    scale: 0.90;
     background-color: #1E1E1E;
     font-size: 1rem;
     color: #E9F554;
